@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru" data-root="../../">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Maxly для компьютера — Maxly</title>
+<meta name="description" content="Maxly для Windows, macOS и Linux: установщики Maxly.msi, Maxly.dmg и Maxly.deb и зачем нужен ffmpeg.">
+<link rel="canonical" href="https://fighxy.github.io/maxly-site/download/desktop/">
+<meta property="og:title" content="Maxly для компьютера — Maxly">
+<meta property="og:description" content="Maxly для Windows, macOS и Linux: установщики Maxly.msi, Maxly.dmg и Maxly.deb и зачем нужен ffmpeg.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://fighxy.github.io/maxly-site/download/desktop/">
+<meta property="og:image" content="https://fighxy.github.io/maxly-site/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#000000">
+
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../assets/css/site.css">
+</head>
+<body>
+<a class="skip" href="#main">К содержанию</a>
+<header class="header">
+  <div class="wrap header-inner">
+    <a class="brand" href="../../"><img src="../../assets/img/logo.png" alt="" width="36" height="28">Maxly</a>
+    <nav class="nav" aria-label="Основное">
+      <a href="../../download/">Скачать</a>
+      <a href="../../faq/">FAQ</a>
+      <a href="https://github.com/fighxy/Maxly">GitHub</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+
+<section class="section"><div class="wrap" style="max-width:760px">
+  <h1>Maxly для компьютера</h1>
+  <p class="lead">Windows, macOS и Linux. Минимальные версии систем ещё сверяются — берите сборку своей ОС из постоянного релиза.</p>
+  <div class="tabs" role="tablist" aria-label="Система">
+    <button class="tab" type="button" role="tab" data-tab="windows" aria-selected="true">Windows</button>
+    <button class="tab" type="button" role="tab" data-tab="macos" aria-selected="false" tabindex="-1">macOS</button>
+    <button class="tab" type="button" role="tab" data-tab="linux" aria-selected="false" tabindex="-1">Linux</button>
+  </div>
+  <div class="panel" data-panel="windows">
+    <h2>Windows</h2>
+    <p class="muted file">Пройдите установщик Maxly.msi.</p>
+    <div class="stack"><a class="btn btn-primary" href="https://github.com/fighxy/Maxly/releases/download/desktop-latest/Maxly.msi">Скачать Maxly.msi</a></div>
+    <p class="note">Заменяет ли установщик Orbitle или ставится рядом, ещё не решено. Пока считайте, что Maxly ставится отдельно и войти нужно заново.</p>
+    <p class="note req"><strong style="color:var(--text)">ffmpeg. </strong>Для голосовых, кружков и видео нужен ffmpeg в PATH. В терминале: winget install Gyan.FFmpeg. Откройте новое окно и проверьте ffmpeg -version.</p>
+  </div>
+  <div class="panel" data-panel="macos" hidden>
+    <h2>macOS</h2>
+    <p class="muted file">Откройте Maxly.dmg и перетащите приложение в «Программы».</p>
+    <div class="stack"><a class="btn btn-primary" href="https://github.com/fighxy/Maxly/releases/download/desktop-latest/Maxly.dmg">Скачать Maxly.dmg</a></div>
+    <p class="note">Сборка не подписана. Первый запуск: правый клик по приложению и «Открыть».</p>
+    <p class="note req"><strong style="color:var(--text)">ffmpeg. </strong>Для голосовых, кружков и видео нужен ffmpeg в PATH. Если стоит Homebrew: brew install ffmpeg. Проверка: ffmpeg -version.</p>
+  </div>
+  <div class="panel" data-panel="linux" hidden>
+    <h2>Linux</h2>
+    <p class="muted file">Скачайте пакет и установите его из текущей папки.</p>
+    <div class="stack"><a class="btn btn-primary" href="https://github.com/fighxy/Maxly/releases/download/desktop-latest/Maxly.deb">Скачать Maxly.deb</a></div>
+    <pre><code>sudo apt install ./Maxly.deb</code></pre>
+    <p class="note req"><strong style="color:var(--text)">ffmpeg. </strong>Для голосовых, кружков и видео нужен ffmpeg в PATH: sudo apt install ffmpeg. Проверка: ffmpeg -version.</p>
+  </div>
+  <noscript><style>[data-panel]{display:block !important}</style></noscript>
+</div></section>
+
+</main>
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <nav aria-label="Документы">
+      <a href="../../privacy/">Конфиденциальность</a>
+      <a href="../../disclaimer/">Неофициальный клиент</a>
+      <a href="../../terms/">Условия</a>
+      <a href="../../contacts/">Контакты</a>
+      <a href="https://t.me/maxly_client">Канал Maxly</a>
+    </nav>
+    <p class="muted legal-note">Неофициальный клиент, не связан с MAX.</p>
+  </div>
+</footer>
+<script src="../../assets/js/os.js"></script>
+</body>
+</html>

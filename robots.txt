@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://fighxy.github.io/maxly-site/sitemap.xml
