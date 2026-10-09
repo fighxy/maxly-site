@@ -94,10 +94,10 @@ sitemap.xml
 - Вёрстка: заголовок, строка «Обновлено», оглавление по h2.
 
 ## `/contacts` — «Связаться с нами»
-- Email [email], новости [канал Maxly], [Issues на GitHub](https://github.com/fighxy/Maxly/issues) для ошибок.
+- Email [email], новости [канал Maxly](https://t.me/maxly_client) (ссылка также в подвале), [Issues на GitHub](https://github.com/fighxy/Maxly/issues) для ошибок.
 - «Не присылайте коды входа, токены и файлы сессии, мы никогда их не попросим.»
 
 ## Открытые вопросы к Ивану
-- Email проекта и канал новостей.
+- Email проекта.
 - Windows: Maxly заменяет Orbitle или ставится рядом.
 - Домен.
